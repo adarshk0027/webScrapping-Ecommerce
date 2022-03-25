@@ -56,7 +56,7 @@ function SearchBar ({ Products, DataState }) {
           {Data.length !== 0 ? 
             <SearchIcon ></SearchIcon>
            : 
-            <SearchOffIcon color="primary"></SearchOffIcon>
+            <SearchOffIcon color="danger"></SearchOffIcon>
           }
         </div>
       </div>
