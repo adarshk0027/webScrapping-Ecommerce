@@ -13,7 +13,7 @@ function App () {
   }, [])
 
   async function fetchProducts () {
-    let productData = await axios.get('http://localhost:5000')
+    let productData = await axios.get('https://webscrap-21.herokuapp.com/')
     
     setProducts(productData.data.data)
   }
