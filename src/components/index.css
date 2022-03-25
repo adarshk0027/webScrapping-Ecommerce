@@ -1,0 +1,27 @@
+.Search{
+    margin-left: 25rem;
+}
+.seraching input{
+    width: 25rem;
+}
+.Results{
+    width:25rem;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 5.8rem;
+    background-color: rgba(255, 255, 255, 0.192);
+    
+}
+.Results::-webkit-scrollbar {
+    display: none;
+  }
+
+.dataItem {
+    cursor: pointer;
+    width: 25rem;
+    height: auto;
+    background-color: white;
+}
+.dataItem:hover {
+    background-color: lightgray;
+}
